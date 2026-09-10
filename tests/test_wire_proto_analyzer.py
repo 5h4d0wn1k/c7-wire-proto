@@ -6,6 +6,8 @@ import sys
 import tempfile
 import unittest
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from wire_proto_analyzer import (
     BinaryProtocolAnalyzer,
     FieldExtractor,
